@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+
+int main() {
+    
+int arr[ ] = {3, 7, 8, 6, 9}; 
+    
+int i,length;
+    
+length=sizeof(arr)/sizeof arr[0];
+   
+ for (i = 0; i < length; i++) {
+        
+if (arr[i] % 2 == 0) { 
+           
+ printf("First even number: %d\n", arr[i]);
+            
+break;
+        
+    }
+    
+  }
+   
+  return 0;
+
+}
+
+
+
+OUTPUT:
+First even number: 8
+
+
+=== Code Execution Successful ===
