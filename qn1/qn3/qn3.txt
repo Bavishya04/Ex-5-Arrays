@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+
+int main() 
+{
+    
+int arr[4] = {100, 49, 46, 47}; 
+int i;
+
+    
+for (i = 0; i < 4; i++) 
+{
+        
+if (arr[i] > 50) 
+{           
+   printf("First number greater than 50: %d\n", arr[i]);
+                break;        
+}
+    
+}
+
+    
+return 0;
+
+}
+
+OUTPUT:
+First number greater than 50: 100
+
+
+=== Code Execution Successful ===
