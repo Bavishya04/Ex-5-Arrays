@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+
+int main() 
+{
+    
+int arr[10] = {1, 2, 3, 4, 5}; 
+   int n = 5;  
+   int pos, i;
+
+    
+
+    printf("Enter the position to delete (1 to %d): ", n);
+    
+scanf("%d", &pos);
+
+    
+
+    
+
+    for (i = pos; i < n - 1; i++) 
+{
+        
+arr[i] = arr[i + 1];
+    
+}
+
+    n--; 
+   printf("Array after deletion: ");
+   
+ for (i = 0; i < n; i++) 
+{
+        
+printf("%d ", arr[i]);
+    
+}
+   
+ printf("\n");
+
+    
+return 0;
+
+}
+
+OUTPUT:
+Enter the position to delete (1 to 5): 2
+Array after deletion: 1 2 4 5 
+
+
+=== Code Execution Successful ===
