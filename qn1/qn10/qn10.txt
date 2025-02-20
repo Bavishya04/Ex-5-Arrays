@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+
+int main() 
+{
+
+    int arr[10] = {2, 5, 3, 5, 7, 5, 8, 5, 9, 5}; 
+   int i, num, count = 0;
+
+  
+  printf("Enter the number to count: ");
+    
+scanf("%d", &num);
+
+    
+for (i = 0; i < 10; i++) 
+{
+        
+  if (arr[i] == num) 
+{
+           
+ count++; 
+       }
+  
+  }
+
+    
+printf("The number %d appears %d times in the array.\n", num, count);
+
+    
+return 0;
+
+}
+
+OUTPUT:
+Enter the number to count: 5
+The number 5 appears 4 times in the array.
+
+
+=== Code Execution Successful ===
