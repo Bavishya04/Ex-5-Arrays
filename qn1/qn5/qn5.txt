@@ -1,0 +1,58 @@
+#include <stdio.h>
+
+
+int main() 
+{
+    
+int arr[100]; 
+
+    int i = 0, num;
+
+    
+printf("Enter numbers (enter 0 to stop):\n");
+
+    
+while (i < 100) {
+     scanf("%d", &num);
+
+        
+if (num == 0) 
+{
+            
+  break;         
+}
+
+        
+arr[i] = num; 
+        i++;
+    
+}
+
+   
+   printf("Numbers entered:\n");
+   
+ for (int j = 0; j < i; j++) 
+{
+        
+printf("%d ", arr[j]);
+    
+}
+    
+    
+printf("\nProgram stopped as 0 was entered.\n");
+
+    
+return 0;
+
+}
+
+OUTPUT:
+Enter numbers (enter 0 to stop):
+5
+0
+Numbers entered:
+5 
+Program stopped as 0 was entered.
+
+
+=== Code Execution Successful ===
